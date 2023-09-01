@@ -6,9 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "vercel",
-    "lint": "next lint",
-    "export": "next build && next export",
   },
   "dependencies": {
     "@faker-js/faker": "^8.0.2",
