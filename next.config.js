@@ -31,10 +31,6 @@ module.exports = withTM(
             },
         },
 
-        basePath: '/amwork',
-        assetPrefix: '/amwork/',
-
-
         webpack(config, options) {
             return config;
         },
