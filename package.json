@@ -1,0 +1,35 @@
+{
+  "name": "amwork",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "vercel",
+    "lint": "next lint",
+    "export": "next build && next export",
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.5.0",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "mobx": "^6.10.2",
+    "mobx-react-lite": "^4.0.4",
+    "next": "13.4.19",
+    "next-optimized-images": "^2.6.2",
+    "next-transpile-modules": "^10.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.66.1",
+    "styled-components": "^6.0.7",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}

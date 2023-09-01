@@ -1,0 +1,10 @@
+.todo {
+  &_list {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background: #FFFFFF;
+    gap: 8px;
+    padding-bottom: 30px;
+  }
+}
